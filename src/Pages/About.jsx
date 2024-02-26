@@ -12,14 +12,14 @@ const About = () => {
                         src={ashutoshimg}
                     />
                     <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-                        <h2 className="text-sm title-font text-gray-500 tracking-widest">
+                        <h2 className="text-sm title-font text-gray-500 tracking-widest mb-5">
                             Hello Everyone , I am.....
                         </h2>
-                        <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">
+                        <h1 className="text-gray-900 text-3xl title-font font-medium mb-5">
                             Ashutosh Kumar
                         </h1>
 
-                        <p className="leading-relaxed">
+                        <p className="text-sm title-font text-gray-500 leading-[24px] text-justify">
                             Results-driven software engineer with a solid background in coding and design  Knowledge in Test Automation.
                             Proficient in C++, Python, and Cloud Technologies like AWS, Google Cloud, IBM Cloud with expertise in developing
                             applications, implementing algorithms, and working with databases. Quick learner with a passion for emerging technologies.

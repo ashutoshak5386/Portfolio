@@ -8,10 +8,10 @@ const Experience = () => {
                     Experience
                 </h1>
                 
-                <div className="flex flex-wrap -m-4">
+                <div className="flex flex-wrap px-20     -m-4">
 
-                    <div className="p-4 lg:w-1/2 md:w-full">
-                        <div className="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
+                    <div className="p-4 lg:w-1/2 md:w-full border-gray-200 shadow-xl  rounded-lg hover:shadow-xl hover:shadow-cyan-100 transition-all duration-300 ease-in-out hover:scale-105">
+                        <div className="flex border-5 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
                             <div className="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 flex-shrink-0">
 
                                 <svg
@@ -51,7 +51,7 @@ const Experience = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="p-4 lg:w-1/2 md:w-full">
+                    <div className="p-4 lg:w-1/2 md:w-full border-gray-200 shadow-xl rounded-lg hover:shadow-xl hover:shadow-cyan-100 transition-all duration-300 ease-in-out hover:scale-105">
                         <div className="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
                             <div className="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 flex-shrink-0">
                                 <svg

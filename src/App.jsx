@@ -1,11 +1,11 @@
 import Footer from "./Components/Footer/Footer"
 import Header from "./Components/Header/Header"
-import Github from "./Pages/Github"
-import About from "./Pages/About"
-import Projects from "./Pages/Projects"
-import Connection from "./Pages/Connection"
-import Experience from "./Pages/Experience"
-import Certifications from "./Pages/Certifications"
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Projects from "./Pages/Projects";
+import Certifications from "./Pages/Certifications";
+import Connection from "./Pages/Connection";
+import Github from "./Pages/Github";
 
 import {
   createBrowserRouter,
@@ -14,20 +14,10 @@ import {
 } from "react-router-dom";
 
 
-
-
-
-
-
 const Layout = () => {
-  return(
+  return (
     <div>
       <Header />
-      <About/>
-      <Projects/>
-      <Experience/>
-      <Certifications/>
-      <Connection/>
       <Outlet />
       <Footer />
     </div>
@@ -38,8 +28,28 @@ const router = createBrowserRouter(
   [
     {
       path: "/",
-      element: <Layout/>,
+      element: <Layout />,
       children: [
+        {
+          path: "/",
+          element: <Home />
+        },
+        {
+          path: "/about",
+          element: <About />
+        },
+        {
+          path: "/projects",
+          element: <Projects />
+        },
+        {
+          path: "/certifications",
+          element: <Certifications />
+        },
+        {
+          path: "/Connect",
+          element: <Connection />
+        },
         {
           path: "/github",
           element: <Github/>
