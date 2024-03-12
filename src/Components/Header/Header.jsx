@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Header = () => {
 
     return (
-        <header class="sticky top-0 text-gray-600 body-font">
+        <header class="position: sticky top-0 text-gray-600 body-font ">
             <div class="container bg-white w-full  flex flex-wrap p-5 flex-col md:flex-row items-center">
                 <nav class=" flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
                     
