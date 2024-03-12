@@ -50,7 +50,7 @@ const Certifications = () => {
                                 />
                                 <div className="text-center relative z-10 w-full">
                                     <h2 className="text-xl text-gray-900 font-medium title-font mb-2">
-                                    Skateboard +1 mustache fixie paleo lumbersexual
+                                    CNCF: Zero-to-Merge Contributor
                                     </h2>
                                    
                                     <a classname="mt-3 text-purple-500 inline-flex items-center" href="https://www.credly.com/badges/6f8b7913-e362-4cc7-905e-6968ea40fece/public_url" target="_blank">
