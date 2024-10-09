@@ -12,7 +12,7 @@ const Hero = () => {
     });
   
     typewriter
-      .typeString("Hi, I am Ashutosh")
+      .typeString("Hi, I am Muskan")
       .pauseFor(2000) // Pause for 2 seconds after typing the first line
       .deleteAll()    // Delete the first line
       .typeString("I am a Web Developer")
