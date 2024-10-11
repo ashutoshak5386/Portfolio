@@ -20,7 +20,7 @@ const Header = () => {
                 </nav>
                 <a href="#" className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA32CUwtf5_ffxrtR8YVhcq1XCx8JHQhnlRw&usqp=CAU" alt="Your Image" className="w-10 h-10 text-white p-2 bg-purple-500 rounded-full" />
-                    <Link to={'/'}><span className="ml-3 text-xl">Muskan Agarwal</span></Link>
+                    <Link to={'/'}><span className="ml-3 text-xl">Ashutosh Kumar</span></Link>
                 </a>
                 <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
                     <div class="group relative">
